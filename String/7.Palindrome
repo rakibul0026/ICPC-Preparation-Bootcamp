@@ -1,1 +1,23 @@
+#include <iostream>
+#include <algorithm>
+#include <string>
+using namespace std;
+void isPalindrome(string s)
+{
+    string p = s;
+    reverse(p.begin(), p.end());
 
+    if (p == s)
+    {
+        cout << "this is Palindrome ";
+    }
+    else
+        cout << "this is not Palindrome";
+}
+int main()
+{   
+    string s;
+    cin>>s;
+    isPalindrome(s);
+
+}
