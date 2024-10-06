@@ -1,3 +1,11 @@
+/*  12->2,2,3
+   12%2==0
+     push_back(2);
+     n= 12/2
+
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
