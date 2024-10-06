@@ -6,6 +6,11 @@
 
     2->  2              4           2      if power is Even -> ans = (base*base) 
                                              and  power=power/2
+    3->  4              2           2
+    
+    4->  16             1           2
+
+    5->  16             0           32
          
          mod Use ->mod use  because when power is a large value value
                    it does not work properly
