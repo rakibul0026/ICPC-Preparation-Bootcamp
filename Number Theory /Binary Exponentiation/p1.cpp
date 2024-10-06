@@ -10,7 +10,7 @@
          mod Use ->mod use  because when power is a large value value
                    it does not work properly
 
- */  
+ */  //complexity->O(log(n))
 
 #include<bits/stdc++.h>
 using namespace std;
