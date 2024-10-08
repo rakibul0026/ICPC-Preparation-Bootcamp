@@ -1,3 +1,24 @@
+/*
+         Euler's Totient Function
+
+       n =
+
+       60 =2,2,3,5
+
+       60 = 2^2 * 3^1 * 5^1
+
+       n = n* (11/2) * (1 - 1/3) * (1 - 1/5)
+
+       n = n* (2-1 / 2) * (3-1 / 3) * (5-1/5) = ans
+
+       1-1/k
+
+       k-1 / k
+
+*/
+
+
+
 #include<bits/stdc++.h>
 using  namespace  std;
  
