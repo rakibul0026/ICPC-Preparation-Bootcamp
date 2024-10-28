@@ -10,7 +10,8 @@
       if(l==0) ans=prefix[r]               2 4  = prefix[4] -prefix[1]=22-6=16
                                            0 4 =prefix[4]=22
     
-
+if not apply prefix sum time complexity--> o(n*Q)
+ apply prefix sum time complexity--> o(n+Q)
 
 
 
