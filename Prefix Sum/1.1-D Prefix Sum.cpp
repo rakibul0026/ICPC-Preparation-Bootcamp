@@ -1,4 +1,21 @@
-/**/
+/*
+    n=5;
+    index:  0  1  2   3   4
+    value:  2  4  1   5  10
+    prefix: 2  6  7  12  22
+
+    Q:
+       range:
+      l  r = prefix[r] -prefix[l-1]       
+      if(l==0) ans=prefix[r]               2 4  = prefix[4] -prefix[1]=22-6=16
+                                           0 4 =prefix[4]=22
+    
+
+
+
+
+
+*/
 #include<bits/stdc++.h>
 using namespace std;
 int main()
