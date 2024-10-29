@@ -1,3 +1,11 @@
+/*difference Between max and min of all subset
+
+1 2 3
+sub= (1),(1,2),(1,2,3),(1,3),(2),(2,3),(3)
+
+min=1,1,1,1,2,2,3 = 1,1,1,1,2,2,3 = 4,2,1 
+max=1,2,3,3,2,3,3 = 1,2,2,3,3,3,3 = 1,2, 4   */
+
 #include<bits/stdc++.h>
 using  namespace  std;
  
